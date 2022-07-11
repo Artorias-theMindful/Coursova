@@ -1,0 +1,22 @@
+﻿<Window x:Class="KyrsovaRobota.Window2"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:KyrsovaRobota"
+        mc:Ignorable="d"
+        Title="Поставити оцінку" Height="355.2" Width="680.467" ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <ComboBox x:Name="Cb1"  HorizontalAlignment="Left" VerticalAlignment="Top" Width="236" Margin="10,41,0,0" SelectionChanged="Cb1_SelectionChanged"/>
+        <Label Content="Оберіть групу" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,10,0,0"/>
+        <Label Content="Введіть оцінку" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,237,0,0"/>
+        <TextBox x:Name="Tb1" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="236" Margin="10,268,0,0"/>
+        <ComboBox x:Name="Cb2" HorizontalAlignment="Left" VerticalAlignment="Top" Width="236" Margin="10,99,0,0"/>
+        <Label Content="Оберіть предмет" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,68,0,0"/>
+        <DataGrid x:Name="dataGrid" HorizontalAlignment="Left" Height="306" VerticalAlignment="Top" Width="413" Margin="251,10,0,0"/>
+        <Button Content="Виставити оцінку" HorizontalAlignment="Left" VerticalAlignment="Top" Width="236" Margin="10,296,0,0" Click="Button_Click"/>
+        <ComboBox x:Name="Cb3" HorizontalAlignment="Left" VerticalAlignment="Top" Width="236" Margin="10,157,0,0" IsEnabled="False"/>
+        <Label Content="Оберіть Студента" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,126,0,0"/>
+        <Label Content="Ви можете обирати лише тих студентів,&#xA;у яких ще немає оцінки за екзамен" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,180,0,0" Width="236" Height="49"/>
+    </Grid>
+</Window>

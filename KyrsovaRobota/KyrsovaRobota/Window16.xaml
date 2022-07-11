@@ -1,0 +1,12 @@
+﻿<Window x:Class="KyrsovaRobota.Window16"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:KyrsovaRobota"
+        mc:Ignorable="d"
+        Title="Середні бали з кожного факультету" Height="547.2" Width="386" ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Label x:Name="Lb1" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Height="508" Width="369"/>
+    </Grid>
+</Window>

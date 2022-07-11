@@ -1,0 +1,16 @@
+﻿<Window x:Class="KyrsovaRobota.Window9"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:KyrsovaRobota"
+        mc:Ignorable="d"
+        Title="Видати довідку" Height="338.262" Width="538.939" ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Label Content="Введіть прізвище абітуріента" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,10,0,0"/>
+        <Label x:Name="Label" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,68,0,0" Height="231" Width="513"/>
+        <TextBox x:Name="Tb1" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="230" Margin="10,36,0,0" />
+        <Button Content="Видати довідку" HorizontalAlignment="Left" VerticalAlignment="Top" Width="102" Margin="245,36,0,0" Height="23" Click="Button_Click"/>
+
+    </Grid>
+</Window>

@@ -1,0 +1,20 @@
+﻿<Window x:Class="KyrsovaRobota.Window6"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:KyrsovaRobota"
+        mc:Ignorable="d"
+        Title="Перевести абітурієнта на іншу кафедру" Height="320" Width="800" ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Label Content="Оберіть студента" HorizontalAlignment="Left" VerticalAlignment="Top" Width="236" Margin="10,74,0,0"/>
+        <ComboBox x:Name="Cb2" HorizontalAlignment="Left" VerticalAlignment="Top" Width="236" Margin="10,105,0,0" IsEnabled="False"/>
+        <Label Content="Оберіть нову кафедру" HorizontalAlignment="Left" VerticalAlignment="Top" Width="236" Margin="10,132,0,0"/>
+        <ComboBox x:Name="Cb3" HorizontalAlignment="Left" VerticalAlignment="Top" Width="236" Margin="10,163,0,0" DropDownClosed="Cb3_DropDownClosed" />
+        <Button Content="Перевести" HorizontalAlignment="Left" VerticalAlignment="Top" Width="236" Margin="10,261,0,0" Click="Button_Click"/>
+        <DataGrid x:Name="dataGrid" HorizontalAlignment="Left" Height="270" VerticalAlignment="Top" Width="533" Margin="251,10,0,0"/>
+        <Label Content="Оберіть групу" HorizontalAlignment="Left" VerticalAlignment="Top" Width="236" Margin="10,16,0,0"/>
+        <ComboBox x:Name="Cb1" HorizontalAlignment="Left" VerticalAlignment="Top" Width="236" Margin="10,47,0,0"  DropDownClosed="Cb1_DropDownClosed"/>
+
+    </Grid>
+</Window>

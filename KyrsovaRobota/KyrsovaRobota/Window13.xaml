@@ -1,0 +1,19 @@
+﻿<Window x:Class="KyrsovaRobota.Window13"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:KyrsovaRobota"
+        mc:Ignorable="d"
+        Title="Консультація і іспити у даного абітурієнта" Height="266.117" Width="535.025" ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Label Content="Оберіть групу" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,19,0,0"/>
+        <ComboBox x:Name="Cb1" HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" Margin="10,45,0,0" DropDownClosed="Cb1_DropDownClosed"/>
+        <Label Content="Оберіть студента" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,67,0,0"/>
+        <ComboBox x:Name="Cb2" HorizontalAlignment="Left" VerticalAlignment="Top" Width="185" Margin="10,93,0,0" IsEnabled="False" DropDownClosed="Cb2_DropDownClosed"/>
+        <Label Content="Оберіть предмет" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,120,0,0"/>
+        <ComboBox x:Name="Cb3" HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" Margin="10,151,0,0" DropDownClosed="Cb3_DropDownClosed" IsEnabled="False"/>
+        <Label x:Name="Lb1" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="200,10,0,0" Height="217" Width="319"/>
+
+    </Grid>
+</Window>
